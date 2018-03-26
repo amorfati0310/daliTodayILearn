@@ -14,4 +14,6 @@ function solution(A) {
     P = P.slice(0, P.length - 1);
     return Math.min(...P);
 }
-solution([3, 1, 2, 4, 3])
+var d = [...Array(100000)].map((v, i) => ++i);
+solution(d);
+// solution([3, 1, 2, 4, 3])
