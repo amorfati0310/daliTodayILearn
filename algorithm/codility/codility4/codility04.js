@@ -11,5 +11,5 @@ function solution(X, A) {
     }
     return Math.max(...Object.values(dic))
 }
-console.log(solution(5, [1, 3, 1, 4, 2, 3, 5, 4, 6]));
+console.log(solution(5, [1, 3, 1, 4, 2, 3,7,8, 5, 4, 6]));
 console.log(solution(5, [3]));
